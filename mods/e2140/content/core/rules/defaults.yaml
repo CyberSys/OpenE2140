@@ -2,7 +2,7 @@
 ^CoreVisibleActor:
 	# All our actors are sprite based and need to render sprites.
 	RenderSprites:
-        FactionImages:
+		FactionImages:
 	# At default fog hides every actor.
 	HiddenUnderFog:
 	# Allow actors to rotate and use facings.
@@ -88,7 +88,7 @@
 		Type: building
 	# Add building specific logic to Constructions.
 	Building:
-		TerrainTypes: Clear, Road, Resources
+		TerrainTypes: Clear, Road
 		AllowPlacementOnResources: true
 	# Constructions can be targeted by anything which attacks ground.
 	Targetable:
