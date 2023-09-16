@@ -6,6 +6,9 @@ shared_buildings_mine:
 		HP: 500
 	Power:
 		Amount: -200
+	ResourceMine:
+		RequiresCondition: !Transforming
+		PauseOnCondition: !Powered
 	WithIdleOverlay@Powered:
 		Sequence: idle-lights
 		RequiresCondition: Powered
@@ -33,6 +36,7 @@ shared_buildings_mine:
 		Dimensions: 3,3
 		Footprint: xxx xx= ===
 		LocalCenterOffset: -380,-520,0
+		TerrainTypes: Resources
 	TransformSequence:
 		Offset: 380,460,0
 	HitShape:
